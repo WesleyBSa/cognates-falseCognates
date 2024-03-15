@@ -1,0 +1,108 @@
+body {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 254, 0.993);
+
+}
+
+header {
+  max-height: 280px;
+  display: flex;
+  background-color: rgba(25, 112, 243, 0.986);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.supEsquerdo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 2;
+  background-color: rgba(25, 112, 243, 0.986);
+  border: none;
+  font-size: 16px;
+}
+
+.supEsquerdo h1 {
+  margin-left: 40%;
+  text-transform: uppercase;
+}
+
+.supEsquerdo p {
+  margin: 5px;
+  margin-left: 200px;
+}
+
+span {
+  border-bottom: 2px solid aqua;
+}
+
+.alunos {
+  border-bottom: 1px solid aqua;
+}
+
+.supDireito {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  border: none;
+}
+
+.container {
+  background-color: rgba(164, 219, 255, 0.603);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.logo {
+  max-width: 150px;
+  margin: 20px auto;
+  display: block;
+}
+
+.equipe {
+  margin-top: 20px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 120px;
+  height: 50px;
+  background-color: rgba(25, 112, 243, 0.986);
+  border-radius: 12px;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s 
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  box-shadow: 4px 4px 2px #ccc;
+}
+
+
+footer {
+  background-color: rgba(25, 112, 243, 0.986);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
